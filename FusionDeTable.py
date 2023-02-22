@@ -1,4 +1,5 @@
 ﻿import csv
+#fusionner deux fichiers csv.
 
 with open ('Contact2.csv') as Contact2 :
     data = list(csv.reader(Contact2))
